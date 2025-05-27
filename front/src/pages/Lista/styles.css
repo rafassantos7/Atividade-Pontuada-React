@@ -1,0 +1,98 @@
+/* src\pages\Lista\styles.css */
+
+
+.pagina-lista-jogadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f400;
+}
+
+/* Personalização visual do container */
+.pagina-lista-jogadores .container {
+    background-color: white;
+    opacity: 0.9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 16px rgba(40, 78, 167, 0.10);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 50px;
+    padding: 32px 0;
+    /* Remova propriedades de flexbox daqui */
+}
+
+/* Layout do container */
+.pagina-lista-jogadores .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pagina-lista-jogadores .container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #284ea7;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 2rem;
+    color: #284ea7;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(40, 78, 167, 0.05);
+    margin-bottom: 16px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: background 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.lista-jogadores  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   /* Centraliza horizontalmente */
+    gap: 15px;
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #020a4d;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: 0 1px 4px rgba(40, 78, 167, 0.05);
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.lista-jogadores li:hover {
+    background-color: #d0e3fa;
+}
+
+.lista-jogadores li strong {
+    font-weight: bold;
+    color: #284ea7;
+    margin-right: 4px;
+}
+
+.link-voltar {
+    margin: 12px auto 0 auto;
+    display: block;
+    width: 80%;
+    max-width: 800px; /* Limita a largura máxima do botão */
+    text-align: center;
+}
